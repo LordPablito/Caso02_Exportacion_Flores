@@ -1,0 +1,44 @@
+{
+  "plantas": [
+    {
+      "nombre": "Rosa roja",
+      "tipo": "Rosa",
+      "precio": 2000
+    },
+    {
+      "nombre": "Tulipán",
+      "tipo": "Flor",
+      "precio": 1700
+    }
+  ],
+  "ordenes": [
+    {
+      "numeroOrden": int,
+      "pais": elemento de la lista,
+      "fecha": "2023-10-05T10:00:00Z",
+      "items": [
+        {
+          "nombre": string,
+          "tipo": string,
+          "precio": double
+          cantidad: double
+          total: double
+        }
+      ]
+    },
+    {
+      "numeroOrden": 2,
+      "pais": "País2",
+      "fecha": "2023-10-05T11:00:00Z",
+      "items": [
+        {
+          "nombre": "Tulipán",
+          "tipo": "Flor",
+          "precio": 1700
+          "cantidad": 34
+          "total": 57800
+        }
+      ]
+    }
+  ]
+}
